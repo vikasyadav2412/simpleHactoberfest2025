@@ -1,0 +1,98 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  #task-form {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  #illustration img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #edit-form-container {
+    display: none;
+  }
+  /* style.css */
+
+/* ... (previous styles) */
+
+#task-form {
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #task-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  #task-form input {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #task-form input:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  #task-form button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #task-form button:hover {
+    background-color: #27ae60;
+  }
+  

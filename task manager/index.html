@@ -1,0 +1,51 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Task Manager</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Task Manager</h1>
+    </header>
+
+    <main>
+      <ul id="task-list"></ul>
+
+      <div id="edit-form-container">
+        <form id="edit-form">
+          <!-- Edit form content goes here -->
+          <button type="button" id="edit-form-close">Close</button>
+        </form>
+      </div>
+    </main>
+
+    <aside>
+      <div id="task-form">
+        <label for="title">Task Title</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="description">Task Description</label>
+        <input type="text" id="description" name="description">
+
+        <label for="due_date">Due Date</label>
+        <input type="date" id="due_date" name="due_date">
+
+        <button type="submit">Add Task</button>
+      </div>
+
+      <!-- Illustration -->
+      <div id="illustration">
+        <img src="your-illustration-image-url" alt="Task Illustration">
+      </div>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
