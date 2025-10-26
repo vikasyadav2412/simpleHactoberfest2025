@@ -11,7 +11,7 @@ public:
         auto normalizeVowels = [](const string& word) {
             string res = word;
             for (char& c : res) {
-                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'||c=='A'||c=='E'||c=='O'||c=='I'||c=='U') {
                     c = '*';
                 }
             }
@@ -56,4 +56,5 @@ public:
         }
         return results;
     }
+
 };
