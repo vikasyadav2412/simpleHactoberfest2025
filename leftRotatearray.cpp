@@ -22,8 +22,9 @@ int main() {
     for (int i = 0; i < N; i++) {
         cout << arr[i];
         if (i < N - 1)
-            cout << ",";
+            cout << "";
     }
 
     return 0;
 }
+
