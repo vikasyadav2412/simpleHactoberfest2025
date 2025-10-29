@@ -16,7 +16,6 @@ int main() {
     for (int i = 0; i < 5; i++) {
         cout << arr[i] << " ";
     }
-
     // 4️⃣ Finding Maximum and Minimum
     int max = arr[0], min = arr[0];
     for (int i = 1; i < 5; i++) {
@@ -25,7 +24,6 @@ int main() {
         if (arr[i] < min)
             min = arr[i];
     }
-
     cout << "\nMaximum element: " << max;
     cout << "\nMinimum element: " << min;
 
@@ -44,6 +42,5 @@ int main() {
     }
     if (!found)
         cout << "Element not found!" << endl;
-
     return 0;
 }
